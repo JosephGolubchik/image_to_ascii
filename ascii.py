@@ -5,6 +5,7 @@ from PIL import ImageDraw
 import numpy as np
 from random import randint
 
+
 ascii_img = Image.open("ascii.png");
 ascii_img = ascii_img.convert(mode='L')
 
